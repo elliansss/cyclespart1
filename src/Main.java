@@ -1,15 +1,24 @@
 public class Main {
     public static void main(String[] args) {
+        task1();
+        task2();
+    }
+
+    public static void task1() {
         //task 1
         System.out.println("task 1");
         for (int number = 1; number <= 10; number++) {
             System.out.println(number);
-            //task 2
-            System.out.println("task 2");
-            for (int numberBack = 10; numberBack >= 1; numberBack--) {
-                System.out.println(numberBack);
-            }
         }
+    }
+
+    //task 2
+    public static void task2() {
+        System.out.println("task 2");
+        for (int numberBack = 10; numberBack >= 1; numberBack--) {
+            System.out.println(numberBack);
+        }
+
         //task 3
         System.out.println("task 3");
         for (int evenNumber = 0; evenNumber <= 17; evenNumber = evenNumber + 2) {
